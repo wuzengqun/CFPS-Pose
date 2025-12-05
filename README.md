@@ -16,21 +16,36 @@ The user guide will be released after acceptance. Please stay tuned and be patie
 </video>  
 
 
-数据集准备
+数据集准备  
 ---
-一、COCO2017数据集
-├─coco-pose
-│  ├─annotations
-│  ├─images
-│  │  ├─train2017
-│  │  └─val2017
-│  └─labels
-│      ├─train2017
-│      └─val2017
+一、COCO2017数据集  
+├─coco-pose  
+│  ├─annotations  
+│  ├─images  
+│  │  ├─train2017  
+│  │  └─val2017  
+│  └─labels  
+│      ├─train2017  
+│      └─val2017  
+
+二、CrowdPose  
+首先到官网下载数据集及Annotations：https://github.com/jeffffffli/CrowdPose?tab=readme-ov-file  
+随后解压，并使用spilt_pic.py将数据集划分为训练集、验证集与测试集。最后通过to_yolo.py将数据集转为yolo格式，供本文模型训练。  
+└─crowdpose  
+    ├─images  
+    │  ├─test  
+    │  ├─train  
+    │  └─val   
+    └─labels  
+    │  ├─test  
+    │  ├─train  
+    │  └─val  
+    ├─spilt_pic.py  
+    ├─to_yolo.py  
 
 
-二、CrowdPose
-
-
+  训练   
+  ---
+以COCO数据集为例：
 
 
