@@ -25,8 +25,8 @@ The user guide will be released after acceptance. Please stay tuned and be patie
 │  │  ├─train2017  
 │  │  └─val2017  
 │  └─labels  
-│      ├─train2017  
-│      └─val2017  
+│  │  ├─train2017  
+│  │  └─val2017  
 
 二、CrowdPose  
 首先到官网下载数据集及Annotations：https://github.com/jeffffffli/CrowdPose?tab=readme-ov-file  
@@ -43,9 +43,10 @@ The user guide will be released after acceptance. Please stay tuned and be patie
     ├─spilt_pic.py  
     ├─to_yolo.py  
 
-
-  训练   
-  ---
-以COCO数据集为例：
-
+训练   
+---
+以COCO数据集为例：  
+```python
+python train.py
+```
 
