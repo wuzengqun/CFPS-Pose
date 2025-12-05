@@ -48,3 +48,11 @@
 python train.py
 ```
 
+Acknowledgements  
+---
+本项目基于：  
+ ● https://github.com/ultralytics/ultralytics  
+ ● https://github.com/FoundationVision/ByteTrack  
+ ● https://github.com/lshiwjx/2s-AGCN  
+感谢原作者的辛勤工作！  
+
