@@ -1,7 +1,5 @@
-The user guide will be released after acceptance. Please stay tuned and be patient.
-
 # 行为识别系统（CFPS-Pose+Bytetrack+2s-agcn）  
-本仓库包含了CFPS-Pose源码
+本仓库包含了CFPS-Pose源码，行为识别系统源码下载地址：行为识别系统
 
 演示视频-Jetson Xavier NX
 ---
