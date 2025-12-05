@@ -16,7 +16,20 @@ The user guide will be released after acceptance. Please stay tuned and be patie
 </video>  
 
 
+数据集准备
+---
+一、COCO2017数据集
+├─coco-pose
+│  ├─annotations
+│  ├─images
+│  │  ├─train2017
+│  │  └─val2017
+│  └─labels
+│      ├─train2017
+│      └─val2017
 
+
+二、CrowdPose
 
 
 
